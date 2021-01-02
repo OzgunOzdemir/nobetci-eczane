@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "448429481091",
+    "project_id": "nobetci-eczane-e62d5",
+    "storage_bucket": "nobetci-eczane-e62d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448429481091:android:2ee4e8647b6e1d48860fb6",
+        "android_client_info": {
+          "package_name": "com.nobetcieczane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448429481091-ilnf74ofrsbh2h0fvqli16cbarlgqtok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV_K2oCrt1hkTK0sJu4-qp_9SIW_FhUTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448429481091-ilnf74ofrsbh2h0fvqli16cbarlgqtok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
