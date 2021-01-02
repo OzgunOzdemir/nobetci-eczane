@@ -45,7 +45,7 @@ function Search({ navigation }) {
         <TouchableOpacity
           style={styles.searchButton}
         >
-          <Text  style={styles.searchText}>Eczane Ara</Text>
+          <Text style={styles.searchText}>Eczane Ara</Text>
         </TouchableOpacity>
       </View>
     </View>
