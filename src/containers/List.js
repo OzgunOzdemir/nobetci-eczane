@@ -1,7 +1,6 @@
 import React from 'react';
-import { Text, View, Button } from 'react-native';
+import { View } from 'react-native';
 import { HeaderComponent } from '../components/Layout/Header';
-
 
 function List({ navigation }){
         return (
