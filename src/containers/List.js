@@ -1,16 +1,14 @@
-import React from 'react'
-import { Text, View, Button } from 'react-native'
+import React from 'react';
+import { View } from 'react-native';
+import { HeaderComponent } from '../components/Layout/Header';
 
 function List({ navigation }){
         return (
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>List Screen</Text>
-            <Button
-              title="Go to Search... again"
-              onPress={() => navigation.goBack()}
-            />
-          </View>
-        )
+            <View>
+              <HeaderComponent backgroundColor="#920000" headerTitle="Eczane Listesi" headerTitleColor="#ffffff"
+              iconLeft="true" iconLeftColor="#ffffff" iconLeftName="left" iconLeftEvent={() => navigation.navigate('Search')}/>
+            </View>
+        )  
 }
 
 export default List;

@@ -11,7 +11,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen options={{headerShown: false}} name="Search" component={SearchScreen} />
-        <Stack.Screen name="List" component={ListScreen} />
+        <Stack.Screen options={{headerShown: false}} name="List" component={ListScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

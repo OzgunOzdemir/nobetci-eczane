@@ -1,5 +1,7 @@
 import React from 'react'
 import { Text, StyleSheet, View } from 'react-native'
+import Icon from 'react-native-vector-icons/AntDesign';
+Icon.loadFont();
 
 const HeaderComponent = ({ headerTitle, headerTitleColor, backgroundColor, iconLeftName, iconLeftEvent, iconRightEvent, iconRightName, iconLeftColor, iconRightColor, iconLeft, iconRight }) => {
     return (
