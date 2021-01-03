@@ -37,12 +37,12 @@ function Search({ navigation }) {
             color: '#9EA0A4',
           }}
           items={[
-            { label: 'Football', value: 'football' },
-            { label: 'Baseball', value: 'baseball' },
-            { label: 'Hockey', value: 'hockey' },
+            { label: 'İstanbul', value: 'İstanbul' },
+            { label: 'İzmir', value: 'İzmir' },
+            { label: 'Ankara', value: 'Ankara' },
           ]}
         />
-        <TouchableOpacity
+        <TouchableOpacity onPress={() => navigation.navigate('List')}
           style={styles.searchButton}
         >
           <Text style={styles.searchText}>Eczane Ara</Text>
